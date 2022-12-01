@@ -1,0 +1,17 @@
+.button {
+  display: inline-block;
+  background: green;
+  color: red;
+  padding: 12px 34px;
+  border-radius: 18px;
+  text-decoration: none;
+
+  transition-duration: 1.3s;
+  transition-property: background;
+}
+
+.button:hover {
+  border-radius: 0;
+  background: black;
+  transform: scaleY(1.3);
+}
